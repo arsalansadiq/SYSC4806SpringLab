@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35ef816d-2c30-4acd-a21f-248d2eac138e" name="Default Changelist" comment="Uploaded Tests and refactored it" />
+    <list default="true" id="35ef816d-2c30-4acd-a21f-248d2eac138e" name="Default Changelist" comment="Uploaded Tests and refactored it">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +49,7 @@
           <entry key="java" value="104" />
           <entry key="properties" value="4" />
           <entry key="xml" value="17" />
-          <entry key="yml" value="2" />
+          <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -57,7 +59,7 @@
           <entry key="JAVA" value="104" />
           <entry key="Properties" value="4" />
           <entry key="XML" value="17" />
-          <entry key="YAML" value="2" />
+          <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -105,11 +107,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hello/BuddyInfoRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -332,7 +343,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549993300529" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549994575011" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -537,7 +548,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63482000" />
+    <option name="totallyTimeSpent" value="64617000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -550,8 +561,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49596122" visible="true" weight="0.23741794" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49596122" visible="true" weight="0.23741794" />
       <window_info id="Structure" order="1" sideWeight="0.50403875" side_tool="true" weight="0.15991472" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -563,15 +575,15 @@
       <window_info anchor="bottom" id="Java Enterprise" order="0" sideWeight="0.49781182" weight="0.32858709" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49840087" weight="0.33187294" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.5142232" visible="true" weight="0.28148958" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.5142232" weight="0.28148958" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4989059" weight="0.32858709" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.51754385" weight="0.33187294" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.51641136" visible="true" weight="0.33187294" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49452955" weight="0.3274918" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.4857768" side_tool="true" visible="true" weight="0.28148958" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.48358864" side_tool="true" visible="true" weight="0.33187294" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.47921225" weight="0.3274918" />
       <window_info anchor="bottom" id="Spring" order="13" sideWeight="0.51641136" weight="0.3461117" />
       <window_info anchor="bottom" id="REST Client" order="14" weight="0.33296824" />
@@ -776,7 +788,7 @@
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>

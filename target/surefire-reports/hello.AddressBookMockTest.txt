@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: AddressBookTest
+Test set: hello.AddressBookMockTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.14 s - in AddressBookTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.03 s - in hello.AddressBookMockTest
