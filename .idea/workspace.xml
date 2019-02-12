@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35ef816d-2c30-4acd-a21f-248d2eac138e" name="Default Changelist" comment="Uploaded Tests and refactored it" />
+    <list default="true" id="35ef816d-2c30-4acd-a21f-248d2eac138e" name="Default Changelist" comment="Uploaded Tests and refactored it">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddressBook.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hello/AddressBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello/AddressBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hello/AddressBookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello/AddressBookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hello/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hello/BuddyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello/BuddyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hello/BuddyInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello/BuddyInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hello/BuddyInfoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hello/BuddyInfoRepository.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,137 +34,11 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="24366454">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="2" />
-          <entry key="html" value="13" />
-          <entry key="java" value="104" />
-          <entry key="procfile" value="1" />
-          <entry key="properties" value="4" />
-          <entry key="xml" value="17" />
-          <entry key="yml" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="HTML" value="13" />
-          <entry key="JAVA" value="104" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="4" />
-          <entry key="XML" value="17" />
-          <entry key="YAML" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="11" />
-          <entry key="html" value="291" />
-          <entry key="java" value="3887" />
-          <entry key="properties" value="18" />
-          <entry key="txt" value="58" />
-          <entry key="xml" value="255" />
-          <entry key="yml" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="291" />
-          <entry key="JAVA" value="3887" />
-          <entry key="PLAIN_TEXT" value="69" />
-          <entry key="Properties" value="18" />
-          <entry key="XML" value="255" />
-          <entry key="YAML" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.spring.core.usages.trigger">
-        <counts>
-          <entry key="fixes.SpringFacetInspection.AddFacetFix" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages">
-        <counts>
-          <entry key="git.branch.create.new" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="AddressBook" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/hello/ApplicationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hello/BuddyInfoRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/hello/HttpRequestTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/hello/AddressBookMockTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -230,12 +114,6 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -260,9 +138,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="952" />
+    <option name="width" value="975" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -272,6 +150,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="AddressBook" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="AddressBook" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,45 +196,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="AddressBook" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="AddressBook" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="AddressBook" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="AddressBook" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="AddressBook" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="AddressBook" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="AddressBook" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="AddressBook" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="AddressBook" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="AddressBook" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="hello" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,6 +213,7 @@
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -402,6 +254,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="hello" />
       <option name="MAIN_CLASS_NAME" value="hello.AddressBookMockTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -416,6 +269,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="hello" />
       <option name="MAIN_CLASS_NAME" value="hello.ApplicationTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -430,6 +284,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="hello" />
       <option name="MAIN_CLASS_NAME" value="hello.HttpRequestTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -444,6 +299,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="hello" />
       <option name="MAIN_CLASS_NAME" value="hello.WebMockTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -475,11 +331,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.Application" />
       <item itemvalue="JUnit.ApplicationTest" />
       <item itemvalue="JUnit.HttpRequestTest" />
       <item itemvalue="JUnit.WebMockTest" />
       <item itemvalue="JUnit.AddressBookMockTest" />
+      <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
@@ -509,6 +365,7 @@
       <workItem from="1549461163842" duration="16032000" />
       <workItem from="1549984499702" duration="730000" />
       <workItem from="1549985443942" duration="3131000" />
+      <workItem from="1550011214503" duration="297000" />
     </task>
     <task id="LOCAL-00001" summary="Upload Lab Files">
       <created>1549468831636</created>
@@ -560,7 +417,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66592000" />
+    <option name="totallyTimeSpent" value="66889000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -572,10 +429,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="762" y="0" width="780" height="838" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49596122" visible="true" weight="0.23741794" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49596122" visible="true" weight="0.24444444" />
       <window_info id="Structure" order="1" sideWeight="0.50403875" side_tool="true" weight="0.15991472" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -584,10 +440,11 @@
       <window_info id="Favorites" order="6" sideWeight="0.5017361" side_tool="true" weight="0.27352297" />
       <window_info id="Persistence" order="7" sideWeight="0.5017361" side_tool="true" weight="0.27352297" />
       <window_info id="Web" order="8" sideWeight="0.5017361" side_tool="true" weight="0.27352297" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="0" sideWeight="0.49781182" weight="0.32858709" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49840087" weight="0.33187294" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.5131291" visible="true" weight="0.28148958" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.5131291" weight="0.28148958" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -595,10 +452,11 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.51641136" weight="0.33187294" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49452955" weight="0.3274918" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.48687088" side_tool="true" visible="true" weight="0.28148958" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.48687088" side_tool="true" visible="true" weight="0.28045326" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.47921225" weight="0.3274918" />
       <window_info anchor="bottom" id="Spring" order="13" sideWeight="0.51641136" weight="0.3461117" />
       <window_info anchor="bottom" id="REST Client" order="14" weight="0.33296824" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24945295" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -639,9 +497,20 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Upload All Files" />
@@ -694,13 +563,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/hello/PersonRepository.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/create.html" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.2.RELEASE/spring-boot-2.1.2.RELEASE.jar!/org/springframework/boot/CommandLineRunner.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/BuddyInfoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/buddyInfo.html" />
     <entry file="file://$PROJECT_DIR$/src/main/java/hello/AddressBookRepository.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -775,24 +637,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/hello/AddressBookMockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/hello/HttpRequestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/.travis.yml" />
     <entry file="file://$PROJECT_DIR$/src/test/java/hello/ApplicationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="342">
           <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
         </state>
       </provider>
@@ -804,10 +652,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hello/HttpRequestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hello/AddressBookMockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/BuddyInfoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="126">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
