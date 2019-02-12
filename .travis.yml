@@ -1,3 +1,8 @@
 language: java
 jdk:
 - oraclejdk8
+deploy:
+  provider: heroku
+  api-key:
+    secure: ebf035c2-15cc-4828-8aca-52ec1b8b0ee6
+  app: sysc-4806lab
