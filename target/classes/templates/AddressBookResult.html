@@ -5,10 +5,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
-<h1>Address Book</h1>
-<form action="#" th:action="@{/createAD}" th:object="${AddressBook}" method="post">
+<h1>Result</h1>
+<p th:text="'Name: ' + ${newAddressBook.toString()}" />
 
-    <p><input type="submit" value="Create AddressBook" />></p>
-</form>
 </body>
 </html>

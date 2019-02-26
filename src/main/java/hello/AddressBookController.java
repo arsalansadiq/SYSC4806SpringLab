@@ -10,9 +10,7 @@ public class AddressBookController {
 
     @Autowired
     AddressBookRepository repo;
-    AddressBook ad;
-    @Autowired
-    BuddyInfoRepository bud;
+
 
 
 //    @RequestMapping("/createAD")
@@ -39,11 +37,13 @@ public class AddressBookController {
 //        repo.save(ad);
 //        return buddy;
 //    }
-    @RequestMapping("/Display")
-    public String Display(Model model){
-        model.addAttribute("address",repo.findAll());
-//        return ad.toString();
-        return "AddressBook";
+
+    @RequestMapping("/createAD")
+    public String Display(@ModelAttribute AddressBook ad, Model model){
+        AddressBook aBook = new AddressBook();
+        repo.save(aBook);
+        model.addAttribute("newAddressBook",aBook);
+        return "AddressBookResult";
 
 
     }

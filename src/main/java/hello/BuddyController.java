@@ -19,7 +19,7 @@ public class BuddyController {
 
     @PostMapping("/buddy")
     public String buddyDisplay(@ModelAttribute BuddyInfo buddyInfo, Model model) {
-        
+
         BuddyInfo buddy = new BuddyInfo(buddyInfo.getName(),buddyInfo.getAddress(),buddyInfo.getNumber());
         repo.save(buddy);
         model.addAttribute("buddyInfo", buddy);
