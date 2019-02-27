@@ -23,12 +23,17 @@
     </div>
 </nav>
 
-<p th:if="${newAddressBook.empty}">
-    <p > No Buddies Available </p>
+<!--<p th:if="${newAddressBook.empty}">-->
+    <!--<p > No Buddies Available </p>-->
 
-</p>
-<p th:each="ad : ${newAddressBook}">
-    <p><span th:text="${ad.getBuddyInfo()}"></span></p>
-</p>
+<!--</p>-->
+<!--<p th:each="ad : ${newAddressBook}">-->
+    <!--<p><span th:text="${ad.getId()}"></span></p>-->
+<!--</p>-->
+
+<h1>Addressbook</h1>
+<p th:text="'id: ' + ${newAddressBook.getId()}" />
+<p th:text="'id: ' + ${newAddressBook.getBuddyInfo()}" />
+<a href="/buddy">add buddy</a><br>
 </body>
 </html>

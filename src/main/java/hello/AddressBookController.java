@@ -40,7 +40,7 @@ public class AddressBookController {
 //        return buddy;
 //    }
 
-    @RequestMapping("/createAD")
+    @PostMapping("/createAD")
     public String display(@ModelAttribute AddressBook ad, Model model){
         AddressBook aBook = new AddressBook();
 
@@ -58,7 +58,7 @@ public class AddressBookController {
 
     @GetMapping("/bookContent")
     public String displayAddressBook(Model model){
-        model.addAttribute("newAddressBook",repo.findAll());
+        model.addAttribute("newAddressBook",repo.findById(1).get());
         return "AddressBookBuddies";
     }
     }
