@@ -10,6 +10,8 @@ public class AddressBookController {
 
     @Autowired
     AddressBookRepository repo;
+    @Autowired
+    BuddyInfoRepository buddyRepo;
 
 
 
@@ -18,7 +20,7 @@ public class AddressBookController {
 //    public AddressBook createAddress(@RequestParam(value="name", defaultValue="12345") int name){
 //        ad = new AddressBook();
 //        ad.setId(name);
-//        repo.save(ad);
+//        buddyRepo.save(ad);
 //        return ad;
 //
 //    }
@@ -34,15 +36,21 @@ public class AddressBookController {
 //        BuddyInfo buddy = new BuddyInfo(name,address,number);
 //        ad.addBuddy(buddy);
 //        bud.save(buddy);
-//        repo.save(ad);
+//        buddyRepo.save(ad);
 //        return buddy;
 //    }
 
-    @RequestMapping("/createAD")
-    public String Display(@ModelAttribute AddressBook ad, Model model){
-//        System.out.println(ad.toString());
+    @PostMapping("/createAD")
+    public String display(@ModelAttribute AddressBook ad, Model model){
         AddressBook aBook = new AddressBook();
+
+        for (BuddyInfo buddy:
+             buddyRepo.findAll()) {
+            aBook.addBuddy(buddy);
+
+        }
         repo.save(aBook);
+
         model.addAttribute("newAddressBook",aBook);
         return "AddressBookResult";
     }
@@ -50,7 +58,7 @@ public class AddressBookController {
 
     @GetMapping("/bookContent")
     public String displayAddressBook(Model model){
-        model.addAttribute("newAddressBook",repo.findAll());
+        model.addAttribute("newAddressBook",repo.findById(1).get());
         return "AddressBookBuddies";
     }
     }
