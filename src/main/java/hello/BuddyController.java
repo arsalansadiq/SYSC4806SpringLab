@@ -9,7 +9,11 @@ import org.springframework.web.bind.annotation.*;
 public class BuddyController {
 
     @Autowired
-   BuddyInfoRepository repo;
+   BuddyInfoRepository buddyRepo;
+
+    @Autowired
+    AddressBookRepository adRepo;
+
 
     @GetMapping("/buddy")
     public String addBuddy(Model model) {
@@ -21,14 +25,15 @@ public class BuddyController {
     public String buddyDisplay(@ModelAttribute BuddyInfo buddyInfo, Model model) {
 
         BuddyInfo buddy = new BuddyInfo(buddyInfo.getName(),buddyInfo.getAddress(),buddyInfo.getNumber());
-        repo.save(buddy);
+        buddyRepo.save(buddy);
+
         model.addAttribute("buddyInfo", buddy);
         return "displayBuddy";
     }
 
     @GetMapping("/all")
     public String displayAllBuddies(Model model){
-        model.addAttribute("buddyInfo",repo.findAll());
+        model.addAttribute("buddyInfo", buddyRepo.findAll());
         return "BuddiesList";
     }
 
