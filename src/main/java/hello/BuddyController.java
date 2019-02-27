@@ -26,6 +26,12 @@ public class BuddyController {
         return "displayBuddy";
     }
 
+    @GetMapping("/all")
+    public String displayAllBuddies(Model model){
+        model.addAttribute("buddyInfo",repo.findAll());
+        return "BuddiesList";
+    }
+
 
 
 }

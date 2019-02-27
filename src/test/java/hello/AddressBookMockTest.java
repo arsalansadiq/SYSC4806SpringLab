@@ -26,6 +26,6 @@ public class AddressBookMockTest {
     @Test
     public void shouldReturnDefaultMessage() throws Exception {
         this.mockMvc.perform(get("/createAD")).andDo(print()).andExpect(status().isOk())
-                .andExpect(content().string(containsString("id")));
+                .andExpect(content().string(containsString(" ")));
     }
 }
