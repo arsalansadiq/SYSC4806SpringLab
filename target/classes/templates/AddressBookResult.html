@@ -23,10 +23,9 @@
     </div>
 </nav>
 
-<h1>Address Book</h1>
-<form action="#" th:action="@{/createAD}" th:object="${AddressBook}" method="post">
+<h1>Created an Addressbook</h1>
+<p th:text="'id: ' + ${newAddressBook.id}" />
+<a href="/buddy">add buddy</a><br>
 
-    <p><input type="submit" value="Create AddressBook" /></p>
-</form>
 </body>
 </html>

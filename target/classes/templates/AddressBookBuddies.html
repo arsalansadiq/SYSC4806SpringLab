@@ -1,8 +1,8 @@
-<!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org">
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Getting Started: Handling Form Submission</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8">
+    <title>Title</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -23,10 +23,12 @@
     </div>
 </nav>
 
-<h1>Address Book</h1>
-<form action="#" th:action="@{/createAD}" th:object="${AddressBook}" method="post">
+<p th:if="${newAddressBook.empty}">
+    <p > No Buddies Available </p>
 
-    <p><input type="submit" value="Create AddressBook" /></p>
-</form>
+</p>
+<p th:each="ad : ${newAddressBook}">
+    <p><span th:text="${ad.toString()}"></span></p>
+</p>
 </body>
 </html>

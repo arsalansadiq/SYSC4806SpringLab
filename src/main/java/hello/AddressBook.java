@@ -11,7 +11,7 @@ import java.util.List;
 public class AddressBook {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy= GenerationType.AUTO)
     private int id;
 
 

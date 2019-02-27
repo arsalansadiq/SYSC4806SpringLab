@@ -3,15 +3,30 @@
 <head>
     <title>Getting Started: Handling Form Submission</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-<h1>Address Book</h1>
-<table>
-    <tr th:each="Address : ${address}">
-        <td th:text = "${Address.toString()}"></td>
-        <!--<td th:text = "${buddy.phoneNumber}"></td>-->
-    </tr>
-</table>
 
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="/buddy">Add A buddy</a></li>
+            <li><a href="/all">Display the Buddies</a></li>
+            <li><a href="/createAD">Create an AddressBook</a></li>
+            <li><a href="/bookContent">Display the content of the AddressBook</a></li>
+        </ul>
+    </div>
+</nav>
+
+<h1>Address Book</h1>
+<form action="#" th:action="@{/createAD}" th:object="${AddressBook}" method="post">
+
+    <p><input type="submit" value="Create AddressBook" /></p>
+</form>
 </body>
 </html>

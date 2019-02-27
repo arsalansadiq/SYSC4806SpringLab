@@ -1,8 +1,8 @@
-<!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org">
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Getting Started: Handling Form Submission</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8">
+    <title>Title</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -23,10 +23,26 @@
     </div>
 </nav>
 
-<h1>Address Book</h1>
-<form action="#" th:action="@{/createAD}" th:object="${AddressBook}" method="post">
-
-    <p><input type="submit" value="Create AddressBook" /></p>
-</form>
+<table>
+    <thead>
+    <tr>
+        <th> Name </th>
+        <th> Address </th>
+        <th> Phone Number </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:if="${buddyInfo.empty}">
+        <td colspan="2"> No Buddies Available </td>
+    </tr>
+    <tr th:each="buddy : ${buddyInfo}">
+        <td><span th:text="${buddy.name}"> Name </span></td>
+        <td><span th:text="${buddy.Address}"> Address </span></td>
+        <td><span th:text="${buddy.number}"> Phone Number </span></td>
+    </tr>
+    </tbody>
+</table>
+<a href="/buddy">Create another buddy</a><br/>
+<a href="/all">Display All the buddies</a>
 </body>
 </html>
