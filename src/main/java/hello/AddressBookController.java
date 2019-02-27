@@ -40,12 +40,17 @@ public class AddressBookController {
 
     @RequestMapping("/createAD")
     public String Display(@ModelAttribute AddressBook ad, Model model){
+//        System.out.println(ad.toString());
         AddressBook aBook = new AddressBook();
         repo.save(aBook);
         model.addAttribute("newAddressBook",aBook);
         return "AddressBookResult";
-
-
     }
 
+
+    @GetMapping("/bookContent")
+    public String displayAddressBook(Model model){
+        model.addAttribute("newAddressBook",repo.findAll());
+        return "AddressBookBuddies";
+    }
     }
