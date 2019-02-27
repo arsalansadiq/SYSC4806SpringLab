@@ -44,11 +44,11 @@ public class AddressBookController {
     public String display(@ModelAttribute AddressBook ad, Model model){
         AddressBook aBook = new AddressBook();
 
-//        for (BuddyInfo buddy:
-//             buddyRepo.findAll()) {
-//            aBook.addBuddy(buddy);
-//
-//        }
+        for (BuddyInfo buddy:
+             buddyRepo.findAll()) {
+            aBook.addBuddy(buddy);
+
+        }
         repo.save(aBook);
 
         model.addAttribute("newAddressBook",aBook);

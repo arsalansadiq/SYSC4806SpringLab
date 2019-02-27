@@ -15,6 +15,10 @@ public class AddressBook {
     private int id;
 
 
+    public List<BuddyInfo> getBuddyInfo() {
+        return buddyInfo;
+    }
+
     @OneToMany (cascade = CascadeType.PERSIST)
     private List<BuddyInfo> buddyInfo;
 
